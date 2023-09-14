@@ -11,7 +11,7 @@ st.title("Micro Organisms Image Classification")
 
 st.write("Predict the Micro organisms that is being represented in the image.")
 
-model = load_model("C:/Users/Student/Desktop/Inogar~prj/Micro Org/model.h5",custom_objects={'KerasLayer':hub.KerasLayer})
+model = load_model("model.h5",custom_objects={'KerasLayer':hub.KerasLayer})
 labels = {
     0: 'Amoeba',
     1: 'Euglena',
